@@ -52,38 +52,38 @@ class UGentStyle(Style):
     styles = {
         Whitespace:                 '#bbbbbb',
         
-        Comment:                    'italic #888888',
-        Comment.Preproc:            'noitalic ' + ugent_colors['ugentblue'],
-        Comment.Special:            'noitalic ' + ugent_colors['ugentblue'],
+        Comment:                    '#888888',
+        Comment.Preproc:            ugent_colors['ugentblue'],
+        Comment.Special:            ugent_colors['ugentblue'],
         
         Keyword:                    ugent_colors['ugent-eb'],
         Keyword.Constant:           ugent_colors['ugentblue'],
         Keyword.Pseudo:             ugent_colors['ugentblue'],
-        Keyword.Reserved:           'bold ' + ugent_colors['ugent-re'],
-        Keyword.Type:               'bold ' + ugent_colors['ugent-re'],
+        Keyword.Reserved:           'bold ' + ugent_colors['ugent-pp'],
+        Keyword.Type:               'bold ' + ugent_colors['ugent-pp'],
         
         Operator.Word:              ugent_colors['ugent-eb'],
         
         Name.Attribute:             ugent_colors['ugentblue'],
         Name.Builtin:               ugent_colors['ugentblue'],
-        Name.Builtin.Pseudo:        'italic ' + ugent_colors['ugent-pp'],
+        Name.Builtin.Pseudo:        'italic ' + ugent_colors['ugent-lw'],
         Name.Class:                 'bold ' + ugent_colors['ugentblue'],
-        Name.Constant:              ugent_colors['ugent-pp'],
-        Name.Decorator:             'italic ' + ugent_colors['ugent-re'],
-        Name.Entity:                'italic ' + ugent_colors['ugent-pp'],
-        Name.Exception:             ugent_colors['ugent-re'],
+        Name.Constant:              ugent_colors['ugent-lw'],
+        Name.Decorator:             'italic ' + ugent_colors['ugent-pp'],
+        Name.Entity:                'italic ' + ugent_colors['ugent-lw'],
+        Name.Exception:             ugent_colors['ugent-pp'],
         Name.Function:              'bold ' + ugent_colors['ugentblue'],
         Name.Label:                 'bold ' + ugent_colors['ugent-eb'],
         Name.Namespace:             'bold ' + ugent_colors['ugentblue'],
         Name.Tag:                   ugent_colors['ugentblue'],
         Name.Variable:              'noitalic',
         
-        String:                     'noitalic #5566aa',
-        String.Escape:              'noitalic ' + ugent_colors['ugent-pp'],
-        String.Interpol:            ugent_colors['ugent-re'],
+        String:                     'noitalic ' + ugent_colors['ugent-tw'],
+        String.Escape:              'noitalic ' + ugent_colors['ugent-lw'],
+        String.Interpol:            ugent_colors['ugent-pp'],
         String.Regex:               '#cc7799',
         Number:                     '#002255',
         
-        Error:                      'bg:#F00'
+        Error:                      'bg:' + ugent_colors['ugent-re']
     }
 
