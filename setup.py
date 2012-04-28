@@ -4,11 +4,11 @@ A UGent style for Pygments
 from setuptools import setup 
 
 setup( 
-    name         = 'UGentStyle', 
-    version      = '1.4', 
+    name         = 'ugent', 
+    version      = '1.0', 
     description  = __doc__, 
     author       = "Pieter Belmans", 
-    install_requires=['pygments'],
+    install_requires = ['pygments'],
     packages     = ['ugent'], 
     entry_points = '''
     [pygments.styles]
