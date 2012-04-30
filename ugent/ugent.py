@@ -62,6 +62,7 @@ class UGentStyle(Style):
         Keyword.Reserved:           'bold ' + ugent_colors['ugent-pp'],
         Keyword.Type:               'bold ' + ugent_colors['ugent-pp'],
         
+        Operator:                   ugent_colors['ugent-eb'],
         Operator.Word:              ugent_colors['ugent-eb'],
         
         Name.Attribute:             ugent_colors['ugentblue'],
@@ -76,7 +77,7 @@ class UGentStyle(Style):
         Name.Label:                 'bold ' + ugent_colors['ugent-eb'],
         Name.Namespace:             'bold ' + ugent_colors['ugentblue'],
         Name.Tag:                   ugent_colors['ugentblue'],
-        Name.Variable:              'noitalic',
+        Name.Variable:              ugent_colors['ugentblue'],
         
         String:                     'noitalic ' + ugent_colors['ugent-tw'],
         String.Escape:              'noitalic ' + ugent_colors['ugent-lw'],
